@@ -10,10 +10,11 @@ Make sure you have **Node.js (v18+)** installed.
 
 Install dependencies:
 
-```bash
 npm init -y
 npm install @aws-sdk/client-ec2
 
-# 🚀 Run
+## 🚀 Run
+
+Run the script by passing your AWS credentials and the desired region:
 
 AWS_ACCESS_KEY_ID=your_key AWS_SECRET_ACCESS_KEY=your_secret node awsInventory.js "region"
